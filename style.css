@@ -6,7 +6,6 @@ body {
     background-image: url(immagini/legno.jpg);
 }
 
-
 .container {
   margin:auto;
   width:850px;
@@ -29,9 +28,6 @@ body {
 }
 .fa {
     display: inline-block;
-    font: normal normal normal 14px/1 FontAwesome;
-    font-size: inherit;
-
     padding-left: 7px;
 }
 
@@ -78,6 +74,7 @@ body {
     padding: 20px;
     margin: 6px;
     box-shadow: 0px 2px 12px;
+    float:right;
 }
 
 .colonna.centrale {
