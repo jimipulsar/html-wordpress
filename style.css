@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(immagini/legno.jpg);
+}
+
+
+.container {
+  margin:auto;
+  width:850px;
+}
+
+
+/* Style the header */
+.header {
+    background-image: url(immagini/paesaggio.jpg);
+    padding: 23px;
+    text-align: center;
+    border: 10px solid #fff;
+    height: 342px;
+    background-size: cover;
+}
+
+.img {
+  width:300px;
+  margin-top: 60px;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+
+    padding-left: 7px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #1c1000db;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: inline-block;
+    font-size:16px;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* classe delle colonne */
+.colonna {
+    float: left;
+    padding: 10px;
+}
+
+.colonna.sinistra {
+    width: 25%;
+    background: #dfdfdf;
+    padding: 21px;
+    margin-top: 6px;
+    box-shadow: 0px 2px 12px;
+}
+.colonna.destra {
+    width: 25%;
+    background: #dfdfdf;
+    padding: 20px;
+    margin: 6px;
+    box-shadow: 0px 2px 12px;
+}
+
+.colonna.centrale {
+    width: 46%;
+    background: #dfdfdf;
+    padding: 17px;
+    margin-top: 6px;
+    margin-left: 15px;
+    margin-right: 7px;
+    box-shadow: 0px 2px 12px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
