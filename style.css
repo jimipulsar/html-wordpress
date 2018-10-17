@@ -11,8 +11,6 @@ body {
   width:850px;
 }
 
-
-/* Style the header */
 .header {
     background-image: url(immagini/paesaggio.jpg);
     padding: 23px;
@@ -31,13 +29,12 @@ body {
     padding-left: 7px;
 }
 
-/* Style the top navigation bar */
+
 .topnav {
     overflow: hidden;
     background-color: #1c1000db;
 }
 
-/* Style the topnav links */
 .topnav a {
     float: left;
     display: block;
@@ -49,7 +46,6 @@ body {
     font-size:16px;
 }
 
-/* Change color on hover */
 .topnav a:hover {
     background-color: #ddd;
     color: black;
